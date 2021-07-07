@@ -1,0 +1,123 @@
+.container.logo {
+  width: 50%;
+}
+img {
+  width: 300px;
+  height: 310px;
+  margin-top: 50px;
+  position: absolute;
+  top: 35px;
+  left: 160px;
+}
+.h2 {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  position: relative;
+  top: 265px;
+  left: 180px;
+}
+.login {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+.box {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  height: 350px;
+  width: 396px;
+  border: 1px rgba(255, 255, 255, 0.877);
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  position: absolute;
+  top: 138px;
+  left: 763px;
+}
+.box input {
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  font-size: 20px;
+  margin: 15px 15px 0px;
+  width: 360px;
+  padding: 14px 16px;
+  cursor: pointer;
+  display: block;
+}
+input[type="text"],
+input[type="password"] {
+  width: 360px;
+  padding: 12px 20px;
+  margin: 15px 15px 1px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font: Arial;
+  color: #1d2129;
+  font-size: 17px;
+}
+.button {
+  background-color: #166fe5;
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  font-size: 20px;
+  margin: 15px 15px 0px;
+  width: 360px;
+  padding: 14px 16px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  display: block;
+  display: inline-block;
+  box-sizing: border-box;
+  font: 400 Arial;
+}
+.box a {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 130px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.box hr {
+  margin: 30px 15px 15px 15px;
+  color: #393a3b;
+}
+.button1 {
+  background-color: #42b72a;
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #42b72a;
+  font-size: 17px;
+  margin: 15px 88px;
+  width: 215px;
+  padding: 14px 16px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  display: block;
+  display: inline-block;
+  box-sizing: border-box;
+  font: 400 Arial;
+}
+p {
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  padding-top: 370px;
+  margin-left: 785px;
+}
