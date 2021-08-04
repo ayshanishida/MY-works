@@ -1,0 +1,47 @@
+body {
+  background-color: silver;
+  background-image: url("web.jpg");
+}
+.main {
+  width: 100%;
+}
+.heading1 {
+  margin-left: 28%;
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: darkslategrey;
+}
+h1 span {
+  color: darkslategrey;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.p {
+  margin-left: 30%;
+  color: lightgrey;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+}
+.loader {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  position: relative;
+  left: 48%;
+  bottom: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
